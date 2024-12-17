@@ -15,6 +15,10 @@ body{
     font-family: "Parkinsans", serif;
 }
 
+.wrapper1 {
+    margin-left: 20px;
+}
+
 .header{
     padding: 10px;
     height: 40px;
@@ -90,7 +94,8 @@ body{
     width: 550px;
     padding: 15px;
     margin: 15px 0px 0px 0px;
-     
+    transform-origin: center; /* Ensures transform happens from the center */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .mainContent #links{
     display: flex;
@@ -112,7 +117,8 @@ body{
 .mainContent:hover{
     border-radius: 8px;
     background-color: white;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px) scale(1.05); /* Lift and scale */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* pj text  */
@@ -188,7 +194,8 @@ a:hover {
     </style>
 </head>
 <body>
-
+    <div class="wrapper1">
+        
     <!-- Header -->
     <div class="hcontainer">
         <div class="header">
@@ -207,9 +214,9 @@ a:hover {
     <!-- Main Content -->
      <div class="mainContainer">
         <div class="mainContent">
-            <p>Hey 👋, I'm <a href="./index.html">marc</a>. I'm second year Computer Science student.
+            <p>Hey 👋, I'm <a href="./index.html">marc</a>. I'm a second year Computer Science student.
                 Currently learning backend development after that I'll start machine/deep learning.
-                You can find my projects down here and also you can check out my blogs where i yapp.
+                You can find my projects down below and you can also check out my blogs where i yapp.
                 You can reach me via email: <a href="mailto:marcxtwt@gmail.com">marcxtwt@gmail.com</a>
                 </p>
                 
@@ -260,5 +267,7 @@ a:hover {
          | 
         <a href="https://buymeacoffee.com/marcuscodew" target="_blank">Donate</a>
     </footer>
+
+    </div>
 </body>
 </html>
