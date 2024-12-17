@@ -51,7 +51,6 @@ body{
 }
 
 .header #name h1{
-    
     font-size: x-large;
 }
 
@@ -68,7 +67,8 @@ body{
     align-items: center;
     text-align: center;
     height: 40px;
-    width: 150px;
+    width: 80px;
+    
 }
 
 .hcontainer{
@@ -90,6 +90,7 @@ body{
     width: 550px;
     padding: 15px;
     margin: 15px 0px 0px 0px;
+     
 }
 .mainContent #links{
     display: flex;
@@ -111,7 +112,7 @@ body{
 .mainContent:hover{
     border-radius: 8px;
     background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* pj text  */
@@ -125,6 +126,7 @@ body{
     display: flex;
     gap: 20px;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .cards a{
@@ -137,14 +139,22 @@ body{
     padding: 10px; 
     width: 150px;
     height: 150px;
+    transform-origin: center; /* Ensures transform happens from the center */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cards #project:hover{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px) scale(1.05); /* Lift and scale */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper{
+    margin-bottom: 200px;
 }
 
 footer{
-    position: fixed;
+    margin-top: 30px;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -153,10 +163,6 @@ footer{
     font-size: 20px;
 }
 
-footer {
-    display: block;
-    unicode-bidi: isolate;
-}
 
 footer a{
     text-decoration: none;
@@ -193,7 +199,7 @@ a:hover {
                 <h1><a href="./index.html">marc</a></h1>
             </div>
             <div id="specification">
-                <h5>19M (he/him)</h5>
+                <h5>19M</h5>
             </div>
         </div>
     </div>
@@ -220,21 +226,32 @@ a:hover {
                 </div>
             </div> 
 
-            <div class="cards">
-                <a href="https://qnguess.vercel.app/" target="_blank">
-                    <div id="project">
-                        <h4>QNGuess</h4>
-                        <p>a number guessing game made with js</p>
-                    </div>
-                </a>
-                <!-- <a href="">
-                    <div id="project">
-                        <h4>Null</h4>
-                        <p>null</p>
-                    </div>
-                </a>   -->
-     </div>
+            <div class="wrapper">
+                <div class="cards">
+                    <a href="https://qnguess.vercel.app/" target="_blank">
+                        <div id="project">
+                            <h4>QNGuess</h4>
+                            <p>quick number guessing game made with js</p>
+                        </div>
+                    </a>
+                    <!-- <a href="">
+                        <div id="project">
+                            <h4>Null</h4>
+                            <p>null</p>
+                        </div>
+                    </a>  
 
+                    <a href="">
+                        <div id="project">
+                            <h4>Null</h4>
+                            <p>null</p>
+                        </div>
+                    </a>   -->
+                </div>
+    
+            
+         </div>
+     </div>
 
     <footer>
         <a href="https://github.com/marcxTWT" target="_blank">Github</a>
