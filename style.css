@@ -41,8 +41,12 @@ body{
     border-radius: 50%;
 }
 
-.theme-toggle{
+#sun{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
     margin-left: auto;
+    margin-right: 15px;
 }
 /* Header CSS End */
 
