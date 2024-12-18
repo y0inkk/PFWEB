@@ -210,4 +210,9 @@ footer a{
         display: block;
     }
 
+    .info{
+        max-width: 339px;
+        margin-left: 20px;
+    }
+
 }
