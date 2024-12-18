@@ -209,9 +209,4 @@ footer a{
         margin-top: 8px;
         display: block;
     }
-
-    .info:hover{
-        max-width: 339px;
-        margin-left: 20px;
-    }
 }
