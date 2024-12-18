@@ -15,7 +15,13 @@ body{
 
 @media (max-width: 768px) {
     .container{
+        position: relative;
         margin-left: 0;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
     }
   }
 
