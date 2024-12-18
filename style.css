@@ -7,18 +7,15 @@ body{
 
 
 .container{
+    position: relative;
     margin-top: 15px;
     margin-left: 10px;
+    min-height: 98vh;
 }
 
 @media (max-width: 768px) {
     .container{
         margin-left: 0;
-    }
-
-    footer{
-        position: relative;
-        bottom: 0;
     }
   }
 
