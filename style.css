@@ -1,0 +1,194 @@
+body{
+    background-color: #f8f4f4;
+    font-family: "Parkinsans", serif;
+    margin: 0;
+}
+
+
+
+.container{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin-left: 0;
+    }
+  }
+
+
+/* Header CSS Start */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.items{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px; 
+}
+
+#one{
+    font-size: x-large;
+    font-weight: 350;
+}
+
+.header img{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.theme-toggle{
+    margin-left: auto;
+}
+/* Header CSS End */
+
+
+
+
+
+
+/* Info CSS Strat */
+.info{
+    margin-top: 10px;
+    padding: 14px;
+    max-width: 520px;
+    margin-left: 15px;
+
+    transform-origin: center; /* Ensures transform happens from the center */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Info ke uper Hover */
+.info:hover{
+    border-radius: 9px;
+    background-color: white;
+    transform: translateY(-10px) scale(1.05); /* Lift and scale */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#links{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#links h4{
+    margin: 0;
+}
+
+/* Underline reomve all and pruple color remove */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* a ke upar hover ke baad color
+    blue */
+a:hover{
+    color: blue;
+}
+
+.info p a{
+    color: blue;
+}
+/* Info CSS End */
+
+
+
+
+/* Project TXT CSS*/
+
+.text{
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+/* Project CSS End */
+
+
+
+
+
+/* Cards CSS START */
+.cards{
+    max-width: 600px;
+    margin-left: 44px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards a{
+    transform-origin: center; /* Ensures transform happens from the center */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    background-color: rgba(255, 255, 255, 0.495);
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 120px;
+}
+
+.cards a:hover{
+    background-color: white;
+    transform: translateY(-10px) scale(1.05); /* Lift and scale */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cards h4{
+    margin-top: 0;
+    text-align: center;
+}
+
+.cards p{
+    margin-top: 0;
+    text-align: center;
+}
+
+.cards a p:hover{
+    color: black;
+}
+
+.cards a p{
+    color: black;
+}
+
+
+
+
+
+/* Footer Css */
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    gap: 10px;
+}
+
+footer a{
+    padding: 8px;
+}
+
+
+/* Whenever projects increase position relative */
