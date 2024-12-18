@@ -7,6 +7,7 @@ body{
 
 
 .container{
+    flex: 1;
     position: relative;
     margin-top: 15px;
     margin-left: 10px;
@@ -20,6 +21,7 @@ body{
     }
 
     .footer{
+        margin-top: auto;
         position: absolute;
         bottom: 0;
     }
