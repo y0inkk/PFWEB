@@ -21,6 +21,11 @@ body{
         margin-top: 40px;
         position: absolute;
     }
+
+    .cards a{
+        max-width: 100px;
+        font-size: small;
+    }
   }
 
 
