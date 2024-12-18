@@ -4,7 +4,9 @@ body{
     margin: 0;
 }
 
-
+#sun{
+    display: none;
+}
 
 .container{
     margin-top: 15px;
@@ -197,6 +199,11 @@ footer a{
     .cards{
         margin-left: 10px;
         justify-content: center;
+    }
+
+    #sun{
+        margin-top: 8px;
+        display: block;
     }
 
 }
