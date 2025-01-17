@@ -83,6 +83,7 @@
 }
 .info p {
   margin: 0;
+  
 }
 .info p a {
   text-decoration: none;
@@ -182,6 +183,9 @@ body {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
+h4{
+  font-family: "JetBrains Mono", serif;
+}
 .wrapper1 {
   display: block;
   width: 50vw;
