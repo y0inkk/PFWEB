@@ -159,6 +159,9 @@
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--base-color);
   color: var(--text-color);
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
@@ -172,8 +175,12 @@ footer {
 footer a {
   color: var(--text-color);
   text-decoration: none;
-  padding-left: 8px;
-  padding-right: 8px;
+}
+
+footer #icons{
+  width: 85px;
+  display: flex;
+  justify-content: space-around;
 }
 
 body {
