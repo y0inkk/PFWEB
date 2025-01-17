@@ -11,7 +11,7 @@
   --base-varient: #cacbcf;
   --text-color: #ffffff;
   --primary-color: #3a435d;
-  --a-color: #00FFFF;
+  --a-color: #00ffff;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -111,28 +111,6 @@
 #links h4:hover {
   color: var(--a-color);
 }
-
-@media screen and (max-width: 768px) {
-  .info {
-    max-width: 100%;
-    margin: 0;
-  }
-  #links {
-    margin-left: 0;
-  }
-  body {
-    font-size: 0.9em;
-  }
-  .container {
-    margin-left: 0px;
-    max-width: 100%;
-  }
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
 .projects p {
   margin-left: 20px;
   margin-top: 40px;
@@ -211,7 +189,6 @@ body {
   height: auto;
 }
 
-
 @media screen and (max-width: 768px) {
   .info {
     max-width: 100%;
@@ -237,7 +214,10 @@ body {
     display: block;
     width: 100%;
   }
-}
 
+  .container .cards {
+    width: 45%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
