@@ -178,9 +178,10 @@ footer a {
 }
 
 footer #icons{
-  width: 85px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
 }
 
 body {
