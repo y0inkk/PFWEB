@@ -105,6 +105,7 @@
   text-decoration: none;
 }
 #links h4 {
+  font-family: "JetBrains Mono", serif;
   margin: 0;
   transition: 0.2s ease-in;
   color: var(--text-color);
@@ -181,7 +182,7 @@ footer #icons{
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 35px;
 }
 
 body {
