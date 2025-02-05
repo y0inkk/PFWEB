@@ -231,6 +231,11 @@ h4{
   .container .cards {
     width: 45%;
   }
+  
+  .meow-video video{
+    top: 22.6rem !important;
+    left: 9.8rem !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
